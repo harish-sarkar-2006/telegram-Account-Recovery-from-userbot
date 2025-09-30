@@ -41,7 +41,7 @@ source venv/bin/activate
 
 4. Configure the script
 
-Open account-recovery.py and set these variables:
+Open main.py and set these variables:
 
 ```api_id = 123456                  # your API ID
 api_hash = "your_api_hash"       # your API hash
