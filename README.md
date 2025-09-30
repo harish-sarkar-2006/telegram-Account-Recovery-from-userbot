@@ -27,11 +27,12 @@ Place your script (e.g. `account-recovery.py`) and `requirements.txt` in a folde
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 
-Linux / macOS
-
+```
+**Linux / macOS**
+```powershell
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 3. Install dependencies
 pip install -r requirements.txt
