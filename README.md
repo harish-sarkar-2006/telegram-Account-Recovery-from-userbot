@@ -26,3 +26,41 @@ Place your script (e.g. `account-recovery.py`) and `requirements.txt` in a folde
 ```powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
+
+Linux / macOS
+
+python3 -m venv venv
+source venv/bin/activate
+
+
+3. Install dependencies
+pip install -r requirements.txt
+
+
+
+4. Configure the script
+
+Open account-recovery.py and set these variables:
+
+api_id = 123456                  # your API ID
+api_hash = "your_api_hash"       # your API hash
+session_str = "YOUR_SESSION_STRING"  # OR None to use a local session file
+
+
+Get API ID & Hash from my.telegram.org
+.
+
+If session_str = None, Pyrogram will create a local .session file after login.
+
+Do not share api_id, api_hash, or session_str.
+
+
+
+
+5. Run the script
+python main.py
+
+
+The script will connect to your Telegram account.
+
+It scans recent messages and prints any login codes (OTP) found.
