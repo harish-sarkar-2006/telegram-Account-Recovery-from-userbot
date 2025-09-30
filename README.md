@@ -59,7 +59,7 @@ Do not share api_id, api_hash, or session_str.
 
 
 5. Run the script
-python main.py
+```python main.py```
 
 
 The script will connect to your Telegram account.
