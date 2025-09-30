@@ -35,7 +35,7 @@ source venv/bin/activate
 ```
 
 3. Install dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 
@@ -43,10 +43,10 @@ pip install -r requirements.txt
 
 Open account-recovery.py and set these variables:
 
-api_id = 123456                  # your API ID
+```api_id = 123456                  # your API ID
 api_hash = "your_api_hash"       # your API hash
 session_str = "YOUR_SESSION_STRING"  # OR None to use a local session file
-
+```
 
 Get API ID & Hash from my.telegram.org
 .
