@@ -18,7 +18,7 @@ A small utility (Pyrogram) that scans your own Telegram account's recent message
 ## Quick start
 
 ### 1. Clone / copy files
-Place your script (e.g. `account-recovery.py`) and `requirements.txt` in a folder.
+Place your script (e.g. `main.py`) and `requirements.txt` in a folder.
 
 ### 2. Create & activate virtual environment
 
